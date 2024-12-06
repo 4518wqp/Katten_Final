@@ -1,0 +1,35 @@
+# Core dependencies for Streamlit application
+streamlit==1.32.0
+PyPDF2==3.0.1
+
+# LangChain and OpenAI dependencies
+langchain==0.1.9
+langchain-core>=0.1.26,<0.2.0
+langchain-openai>=0.0.5
+langchain-community>=0.0.20
+openai==1.12.0
+
+# Vector store and embeddings
+chromadb==0.4.22
+
+# PDF processing
+pdfplumber==0.10.3
+beautifulsoup4==4.12.3
+
+# Environment and utility packages
+python-dotenv==1.0.0
+numpy==1.24.3
+pandas==2.1.4
+scikit-learn==1.3.0
+
+# For regex operations
+regex==2023.12.25
+
+# Optional but recommended for better performance
+tiktoken==0.5.2
+
+# For development and debugging
+python-magic==0.4.27
+
+# Ranking 
+rank-bm25
