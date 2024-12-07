@@ -1,0 +1,12 @@
+Trademark Guidebook
+.env
+chroma_local_db
+__pychache__
+/function_calls/__pycache__/
+*.pyc
+.DS_Store
+.xlsx
+mycap/
+venv/
+*~
+parsed_segments

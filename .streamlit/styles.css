@@ -1,0 +1,112 @@
+/* Chat message styling */
+.streamlit-chat-message {
+    margin: 0.5em 0;
+    padding: 0.5em;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+}
+
+/* Reference section styling */
+.reference-container {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 1rem 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.reference-header {
+    color: #1e1e1e;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.reference-content {
+    margin-left: 1.5rem;
+}
+
+.reference-label {
+    font-weight: bold;
+    color: #666666;
+    margin-bottom: 0.5rem;
+}
+
+.reference-text {
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+
+/* Message roles styling */
+.streamlit-chat-message[data-role="user"] {
+    background-color: #0066cc;
+    color: white;
+    border-radius: 1rem 1rem 0 1rem;
+    margin-left: auto;
+    max-width: 80%;
+}
+
+.streamlit-chat-message[data-role="assistant"] {
+    background-color: #f8f9fa;
+    color: #1e1e1e;
+    border: 1px solid #e0e0e0;
+    border-radius: 1rem 1rem 1rem 0;
+    max-width: 80%;
+}
+
+/* Selection checkbox styling */
+.stCheckbox {
+    margin-top: 0.5rem;
+    margin-right: 1rem;
+}
+
+/* Selection status styling */
+.selection-status {
+    background-color: #e7f3ff;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    color: #0066cc;
+}
+
+/* Section spacing */
+.section-spacer {
+    height: 1rem;
+}
+
+/* Card styling for each reference */
+.reference-card {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    transition: all 0.2s ease;
+}
+
+.reference-card:hover {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Subsection and summary styling */
+.subsection-label {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #666666;
+    margin-bottom: 0.25rem;
+}
+
+.summary-text {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333333;
+}
+
+/* Success indicator */
+.success-indicator {
+    color: #00ab41;
+    font-weight: bold;
+    margin-left: 0.5rem;
+}

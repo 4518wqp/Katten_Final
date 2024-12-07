@@ -1,0 +1,19 @@
+# .streamlit/config.toml
+[theme]
+primaryColor = "#0B3D91"  # Navy blue
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F0F2F6"
+textColor = "#262730"
+font = "sans serif"
+
+[browser]
+# Assuming your logo is named "logo.png" in .streamlit/images/
+gatherUsageStats = false
+favicon = "./images/logo.png"
+
+[app]
+title = "RebutBot"
+header_color = "#0B3D91"
+bg_color = "#F1F1F1"
+user_msg_color = "#D1E8E2"
+assistant_msg_color = "#FFFFFF"
