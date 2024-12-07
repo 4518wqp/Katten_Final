@@ -33,8 +33,8 @@ Step 5: Save a copy of the Trademark Guidebook in the main directory that has th
 
 Step 6: Export the OpenAI API and LangChain API keys and check that they were correctly set
 
-export OPENAI_API_KEY = "key_value”
-export LANGCHAIN_API_KEY = "key_value”
+export OPENAI_API_KEY="key_value”
+export LANGCHAIN_API_KEY="key_value”
 
 echo $OPENAI_API_KEY 
 echo $LANGCHAIN_API_KEY
