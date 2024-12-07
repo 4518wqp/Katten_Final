@@ -1,8 +1,0 @@
-Trademark Guidebook
-.env
-chroma_local_db
-__pycache__
-/function_calls/__pycache__/
-*.pyc
-.DS_Store
-.xlsx
